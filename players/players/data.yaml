@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 25
+names: ['Ishan_kisan', 'K_ahmed', 'M_siraj', 'R_pant', 'Rinku singh', 'Subham_gill', 'arshdeep', 'avish_khan', 'axar_patel', 'bumrah', 'chahal', 'dhoni', 'jadeja', 'jaswal', 'kholi', 'kuldeep_singh', 'pandya', 'rahul', 'raina', 'rohit', 'sami', 'sanju_samson', 'seraj', 'shivam_dube', 'surya']
+
+roboflow:
+  workspace: data-rcmxy
+  project: indian-cricket
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/data-rcmxy/indian-cricket/dataset/2
